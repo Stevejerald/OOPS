@@ -1,0 +1,19 @@
+import java.io.*;
+
+public class LargeTextFile{
+    public static void main(String[] args){
+        File file = new File("students.txt");
+        int totalGrade = 0;
+        int studentCount = 0;
+
+        try(FileReader fr = new FileReader(file)){
+            StringBuilder content = new StringBuilder();
+            int c;
+
+            while ((c = fr.read() != -1){
+                
+            })
+
+        }
+    }
+}

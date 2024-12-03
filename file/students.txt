@@ -1,0 +1,5 @@
+John,20,85
+Jane,22,90
+Sam,21,78
+Invalid,Record
+Anna,20,abc
